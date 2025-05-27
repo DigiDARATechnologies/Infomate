@@ -8,8 +8,8 @@ from langchain.prompts import PromptTemplate
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Qdrant configuration
-QDRANT_URL = "https://72eade17-727f-4f58-91ad-d9c79196a229.europe-west3-0.gcp.cloud.qdrant.io:6333"
-QDRANT_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.3Oi2ODDSMy4rrawMSC2j-83R64oCLyl64G75Xx1LSJc"
+QDRANT_URL = "<cluster url>"
+QDRANT_API_KEY = "<create an API key>"
 COLLECTION_NAME = "kongunadu_data"
 
 def initialize_qdrant_client(url=QDRANT_URL, api_key=QDRANT_API_KEY, collection_name=COLLECTION_NAME):
