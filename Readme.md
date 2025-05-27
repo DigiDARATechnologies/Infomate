@@ -80,7 +80,7 @@ Option 1: Use Qdrant Cloud (Recommended for Simplicity):
 
 Sign up for a Qdrant Cloud account at Qdrant Cloud.
 Create a new cluster and obtain the cluster URL and API key.
-Update the QDRANT_URL and QDRANT_API_KEY in chat.py with your credentials:QDRANT_URL = "https://<your-cluster-url>.qdrant.io:6333"
+Update the QDRANT_URL and QDRANT_API_KEY in chat.py with your credentials:QDRANT_URL = "https://<your-cluster-url>.qdrant.io:6333" //api key generate page =>usage Examples =>  choose python =>shown qdrant url and api key shown just  copy and replace the main code
 QDRANT_API_KEY = "<your-api-key>"
 
 
